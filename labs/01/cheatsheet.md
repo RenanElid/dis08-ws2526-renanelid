@@ -153,3 +153,95 @@ Example:
 
 →  
 [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
+
+---
+## Tables
+
+### Basic tables
+Used to organize data in rows and columns.  
+Use `|` for columns and `-` for the header line.  
+
+Example:
+
+```
+| Name | Age |
+|------|-----|
+| Renan | 23 |
+| Milena | 22 |
+````
+
+→
+
+| Name   | Age |
+| ------ | --- |
+| Renan  | 23  |
+| Milena | 22  |
+
+---
+
+### Alignment
+
+You can align text to the left, center, or right.
+Use `:` for alignment.
+
+Example:
+
+```markdown
+| Left | Center | Right |
+|:-----|:------:|------:|
+| A | B | C |
+```
+
+→
+
+| Left | Center | Right |
+| :--- | :----: | ----: |
+| A    |    B   |     C |
+
+---
+
+### Complex tables
+
+You can use formatting like **bold** or *italic* inside cells.
+
+Example:
+
+```markdown
+| Item | Description | Done |
+|------|--------------|------|
+| 1 | **Bold text** | ✓ |
+| 2 | _Italic text_ | ✗ |
+```
+
+→
+
+| Item | Description   | Done |
+| ---- | ------------- | ---- |
+| 1    | **Bold text** | ✓    |
+| 2    | _Italic text_ | ✓    |
+
+---
+
+## Task Lists
+
+### Checkboxes
+
+Used to create to-do lists.
+Write `- [ ]` for unchecked and `- [x]` for checked items.
+
+Example:
+
+```markdown
+- [x] Write Lab 1
+- [ ] Submit Lab 1
+- [ ] Start Lab 2
+```
+
+→
+
+* [x] Write Lab 1
+* [ ] Submit Lab 1
+* [ ] Start Lab 2
+
+
+
